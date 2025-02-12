@@ -1,0 +1,81 @@
+{
+  "id": "drivers_hero",
+  "type": "SharedSlice",
+  "name": "DriversHero",
+  "description": "DriversHero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "driver_info": {
+          "type": "Group",
+          "config": {
+            "label": "Driver Info",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "name": {
+                "type": "Text",
+                "config": {
+                  "label": "Name",
+                  "placeholder": ""
+                }
+              },
+              "surname": {
+                "type": "Text",
+                "config": {
+                  "label": "Surname",
+                  "placeholder": ""
+                }
+              },
+              "nationality": {
+                "type": "Text",
+                "config": {
+                  "label": "Nationality",
+                  "placeholder": ""
+                }
+              },
+              "highlight_image_1": {
+                "type": "Image",
+                "config": {
+                  "label": "Highlight Image 1",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "highlight_image_2": {
+                "type": "Image",
+                "config": {
+                  "label": "Highlight Image 2",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              },
+              "highlight_image_3": {
+                "type": "Image",
+                "config": {
+                  "label": "Highlight Image 3",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
